@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be30f7-653b-413f-a8fb-c7346a29ea07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/org/project/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/org/project/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/test/java/org/project/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/InvertedMinAndMaxBoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/AnsiColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/MenuEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/org/project/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +48,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT2/Calculator/App_utils/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App_utils/src/main/java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App_main.App" />
@@ -84,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674489975565</updated>
-      <workItem from="1674489976684" duration="1453000" />
+      <workItem from="1674489976684" duration="3110000" />
     </task>
     <servers />
   </component>
