@@ -1,8 +1,5 @@
 package App_utils.printer;
 
-import static App_utils.printer.Printer.println;
-
-
 /**
  * Methods for printing progress bar like:
  * Attribute [█████ ...]

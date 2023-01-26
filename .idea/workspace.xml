@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be30f7-653b-413f-a8fb-c7346a29ea07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/StackedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/StackedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/org/project/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/StackedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/StackedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,7 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +51,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT2/Calculator/App_main/src/main/java/App_main",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/2-2022/PROGRA/HOMEWORK/LAB1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +73,7 @@
       <recent name="App_main.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StackedArrayTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App_main.App" />
       <module name="App_main" />
@@ -92,8 +87,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.StackedArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackedArrayTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -112,7 +123,7 @@
       <workItem from="1674661372530" duration="663000" />
       <workItem from="1674664249411" duration="559000" />
       <workItem from="1674666472935" duration="1540000" />
-      <workItem from="1674696174893" duration="4982000" />
+      <workItem from="1674696174893" duration="9213000" />
     </task>
     <servers />
   </component>
@@ -129,5 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Calculator$StackedArrayTest.ic" NAME="StackedArrayTest Coverage Results" MODIFIED="1674705308713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>App_main.model.*</FILTER>
+    </SUITE>
   </component>
 </project>

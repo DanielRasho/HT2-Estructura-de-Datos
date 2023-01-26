@@ -3,8 +3,6 @@
  */
 module App_utils {
 
-    requires static lombok;
-
     exports App_utils.printer;
     exports App_utils.arrayUtils;
     exports App_utils.math;
