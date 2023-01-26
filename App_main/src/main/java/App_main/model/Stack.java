@@ -1,4 +1,4 @@
-package App_main;
+package App_main.model;
 
 import java.util.EmptyStackException;
 
@@ -38,7 +38,6 @@ public interface Stack<E> {
 
    /**
     * post: returns true if and only if the stack is empty
-    * 
     * @return True if empty, false otherwise.
     */
    public boolean empty();

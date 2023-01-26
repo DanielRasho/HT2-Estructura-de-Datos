@@ -5,25 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be30f7-653b-413f-a8fb-c7346a29ea07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/InvertedMinAndMaxBoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/AnsiColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/MenuEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/StackedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/StackedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/org/project/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/org/project/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,8 +52,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT2/Calculator/App_utils/src/main/java",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT2/Calculator/App_main/src/main/java/App_main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +67,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App_main/src/main/java/App_main" />
       <recent name="$PROJECT_DIR$/App_utils/src/main/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="App_main.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -68,7 +84,7 @@
       <module name="App_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="App_main.*" />
+          <option name="PATTERN" value="App_main.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +106,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674489975565</updated>
-      <workItem from="1674489976684" duration="3110000" />
+      <workItem from="1674489976684" duration="3221000" />
+      <workItem from="1674617104049" duration="2000" />
+      <workItem from="1674661350904" duration="5000" />
+      <workItem from="1674661372530" duration="663000" />
+      <workItem from="1674664249411" duration="559000" />
+      <workItem from="1674666472935" duration="1540000" />
+      <workItem from="1674696174893" duration="4982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

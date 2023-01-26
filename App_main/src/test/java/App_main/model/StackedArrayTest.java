@@ -1,30 +1,34 @@
 package App_main.model;
 
+import org.junit.Before;
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class StackedArrayTest {
 
-    @org.junit.Before
+    @Before
     public void setUp() throws Exception {
+        System.out.printf("owo");
     }
 
-    @org.junit.Test
+    @Test
     public void push() {
     }
 
-    @org.junit.Test
+    @Test
     public void pop() {
     }
 
-    @org.junit.Test
+    @Test
     public void peek() {
     }
 
-    @org.junit.Test
+    @Test
     public void empty() {
     }
 
-    @org.junit.Test
+    @Test
     public void size() {
     }
 }
