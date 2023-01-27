@@ -48,5 +48,9 @@ public class Vista {
     public void validacion2(){
         System.out.println("\n- -");
     }
+
+    public void SeAbrioArchivo(){
+        System.out.println("\n- se ha leido el archivo correctamente! -");
+    }
     
 }
