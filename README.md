@@ -1,4 +1,4 @@
-# Hoja de Trabajo 1
+# Hoja de Trabajo 2
 Elaborado con java 17 y maven.
 
 ## Cómo ejecutarlo?
