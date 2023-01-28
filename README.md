@@ -2,7 +2,9 @@
 Elaborado con java 17 y maven.
 
 ## Cómo ejecutarlo?
-Ejecutar el jar ubicado en 'App_main/target/calculator-1.0SNAPSHOT.jar' con el siguiente comando:
+1. Escribir los datos para operar en el archivo `./Main_app/main/resources/operaciones.txt`.
+
+2. Ejecutar el codigo ubicado en `App_main/target/classes` con el siguiente comando:
 ```bash
-java -jar calculator-1.0-SNAPSHOT.jar
+java App_main.App
 ```

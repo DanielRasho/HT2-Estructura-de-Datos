@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be30f7-653b-413f-a8fb-c7346a29ea07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/MostrarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/MostrarMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/PostFixValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/resources/operaciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/resources/operaciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/ArrayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/InvertedMinAndMaxBoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/Random.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/AnsiColors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/MenuEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/test/java/org/project/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +201,7 @@
       <workItem from="1674781924222" duration="4459000" />
       <workItem from="1674787069562" duration="639000" />
       <workItem from="1674844417421" duration="2503000" />
-      <workItem from="1674870944899" duration="4367000" />
+      <workItem from="1674870944899" duration="7578000" />
     </task>
     <servers />
   </component>
