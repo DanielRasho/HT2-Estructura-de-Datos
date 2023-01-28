@@ -9,7 +9,7 @@ public class CalculadoraTest {
     @Test
     public void evaluate() {
         Calculadora calc = new Calculadora();
-        double resultado = calc.evaluate("11+");
-        assertEquals(resultado, 2.0d);
+        double resultado = calc.evaluate("213+*");
+        assertEquals(resultado, 8.0d, 0.2d);
     }
 }

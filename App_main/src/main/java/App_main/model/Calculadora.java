@@ -1,73 +1,43 @@
 package App_main.model;
 
 public class Calculadora implements ICalculator {
-    public Calculadora(){
 
-    }
-    public void evaluate2Prueba(){
-        System.out.println("Bandera 0 ");
-
-    }
+    private double lastCalculation = 0;
     
     @Override
     public double evaluate(String expression) throws ArithmeticException {
-        System.out.println("Bandera 0 ");
-        StackedArray<Character> StackC  = new StackedArray<>();
-        System.out.println("Bandera 1 ");
-        int o= 0;
-        int a= 0;
-        int b=0;
-        int r=0;
+        StackedArray<Double> stackedArray  = new StackedArray<>();
+        double operatorA = 0;
+        double operatorB = 0;
+        double result = 0;
+        char  character;
 
-        String operacion = expression; 
-        char caracter;
-
-        System.out.println("expresion "+operacion);
-
-
-        for(int n=0; n < operacion.length(); n++){
-
-            caracter = operacion.charAt(n);
-            System.out.println("caracter "+caracter);
-
-
-            /*if (caracter!= ' '){
-                
-            }*/
-            if (caracter>='0' && caracter <='9'){
-                StackC.push(caracter);
-                System.out.println("caracter "+caracter);
-                System.out.println("stack "+caracter);
-
-
-            }
-            else{
-                b = StackC.pop();
-                a = StackC.pop();
-
-                if (caracter =='+'){
-                    r = a+b;
-                    StackC.push((char) r);
-                }
-                if (caracter =='-'){
-                    r = a-b;
-                    StackC.push((char) r);
-                }
-                if (caracter =='*'){
-                    r = a*b;
-                    StackC.push((char) r);
-                }
-                if (caracter =='/'){
-                    r = a/b;
-                    StackC.push((char) r);
+        for(int n=0; n < expression.length(); n++){
+            character = expression.charAt(n);
+            if('0' < character && character < '9')
+                stackedArray.push(Double.parseDouble(String.valueOf(character)));
+            else {
+                operatorA = stackedArray.pop();
+                operatorB = stackedArray.pop();
+                switch (character){
+                    case '+' -> stackedArray.push(operatorA + operatorB);
+                    case '-' -> stackedArray.push(operatorA - operatorB);
+                    case '*' -> stackedArray.push(operatorA * operatorB);
+                    case '/' -> {
+                        if(operatorB == 0)
+                            throw new ArithmeticException("No se permite division por 0");
+                        else
+                            stackedArray.push(operatorA / operatorB);}
                 }
             }
         }
-        return r;
+        result = stackedArray.pop();
+        this.lastCalculation = result;
+        return result;
     }
 
     @Override
     public double getPrevious() {
-        return 0;
+        return lastCalculation;
     }
 }

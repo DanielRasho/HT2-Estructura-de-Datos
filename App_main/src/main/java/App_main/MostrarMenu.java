@@ -36,7 +36,7 @@ public class MostrarMenu {
                 else if (opcion==3){
                     String tempExpresion = controlador.leerArchivo();
                     //8System.out.println(tempExpresion);
-                    calculadora.evaluate2Prueba();
+                    //calculadora.evaluate2Prueba();
                     //calculadora.evaluate2Prueba(tempExpresion);
 
 
