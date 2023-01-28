@@ -1,4 +1,4 @@
-package App_main;
+package App_main.model;
 
 /**
  * ICalculator

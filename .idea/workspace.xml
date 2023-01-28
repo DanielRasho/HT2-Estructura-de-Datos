@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be30f7-653b-413f-a8fb-c7346a29ea07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/PostFixValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/resources/operaciones.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/ICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/resources/operaciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/resources/operaciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,12 +75,15 @@
       <recent name="$PROJECT_DIR$/App_main/src/main/resources" />
       <recent name="$PROJECT_DIR$/App_main/src/main/java/App_main" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="App_main" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="App_main.model" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="App_main.model" />
+      <recent name="App_main" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.evaluate">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App_main.App" />
       <module name="App_main" />
@@ -95,11 +97,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraTest.evaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.CalculadoraTest" />
+      <option name="METHOD_NAME" value="evaluate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="App_main.*" />
+          <option name="PATTERN" value="App_main.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.evaluate" />
         <item itemvalue="JUnit.ControllerTest" />
         <item itemvalue="JUnit.StackedArrayTest" />
         <item itemvalue="Application.App" />
@@ -149,7 +168,8 @@
       <workItem from="1674666472935" duration="1540000" />
       <workItem from="1674696174893" duration="9388000" />
       <workItem from="1674781924222" duration="4459000" />
-      <workItem from="1674787069562" duration="291000" />
+      <workItem from="1674787069562" duration="639000" />
+      <workItem from="1674844417421" duration="2097000" />
     </task>
     <servers />
   </component>
@@ -166,6 +186,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
