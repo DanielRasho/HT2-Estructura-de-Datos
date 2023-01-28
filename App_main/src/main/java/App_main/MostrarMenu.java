@@ -1,9 +1,13 @@
 package App_main;
 
+import App_main.model.Calculadora;
+
 public class MostrarMenu {
         Vista vista;
         Controller controlador;
         int opcion=0;
+        Calculadora calculadora;
+        String expresion;
         
 
     public MostrarMenu(){
@@ -24,13 +28,13 @@ public class MostrarMenu {
 /////////////2. Escribir en el archivo //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             try{
                 if (opcion==2){
-                    String expresion= vista.SeleccioneMenuString("ingrese la expresión: (ej: 656*-)");
+                    expresion= vista.SeleccioneMenuString("ingrese la expresión: (ej: 656*-)");
                     controlador.EscribirArchivo(expresion);
                     
                 }
     ///////////3. ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 else if (opcion==3){
-                    
+                    calculadora.evaluate(expresion);
 
                 }
             /////salir//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

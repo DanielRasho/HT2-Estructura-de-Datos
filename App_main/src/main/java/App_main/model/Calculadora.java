@@ -11,12 +11,15 @@ public class Calculadora implements ICalculator {
         int b=0;
         int r=0;
 
-        String operacion = "12=4*3";
+        String operacion = expression; 
         char caracter;
 
         for(int n=0; n < operacion.length(); n++){
             caracter = operacion.charAt(n);
 
+            /*if (caracter!= ' '){
+                
+            }*/
             if (caracter>='0' && caracter <='9'){
                 StackC.push(caracter);
             }
