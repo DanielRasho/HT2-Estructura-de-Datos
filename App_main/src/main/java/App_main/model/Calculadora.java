@@ -6,6 +6,7 @@ public class Calculadora implements ICalculator {
     
     @Override
     public double evaluate(String expression) throws ArithmeticException {
+        System.out.println("bandera 1, como que no anda jalando esto xd");
         StackedArray<Double> stackedArray  = new StackedArray<>();
         double operatorA = 0;
         double operatorB = 0;
