@@ -12,6 +12,8 @@ public class Controller {
     App app;
     String rootPath;
     File file;
+    String data;
+    Scanner leer_archivo;
     
     public Controller(){
         vista= new Vista();
@@ -24,23 +26,25 @@ public class Controller {
 
     }
 
-    public void leerArchivo() {
-        System.out.println(rootPath);
+    public String leerArchivo() {
+        //System.out.println(rootPath);
         try {
             Scanner leer_archivo = new Scanner(file);
 
             while (leer_archivo.hasNextLine()) {
-                String data = leer_archivo.nextLine();
+                data = leer_archivo.nextLine();
                 System.out.println(data);
-
+                
             }
             vista.SeAbrioArchivo();
             leer_archivo.close();
+            
 
         } catch (FileNotFoundException e) {
             System.out.println("Excepcion al abrir el archivo" + e);
 
         }
+        return data;
     }
     public void EscribirArchivo(String expresion){
         archivo= new File(rootPath + "../" + "operaciones.txt");
@@ -64,5 +68,25 @@ public class Controller {
         }
         
         
+    }
+    public String RetornarExpresion(){
+        try {
+            Scanner leer_archivo = new Scanner(file);
+
+            while (leer_archivo.hasNextLine()) {
+                data = leer_archivo.nextLine();
+                
+            }
+            vista.SeAbrioArchivo();
+            leer_archivo.close();
+            
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Excepcion al abrir el archivo" + e);
+
+        }
+        System.out.println(data);
+        return data;
+
     }
 }

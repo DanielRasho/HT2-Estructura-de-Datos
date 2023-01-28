@@ -34,7 +34,11 @@ public class MostrarMenu {
                 }
     ///////////3. ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 else if (opcion==3){
-                    calculadora.evaluate(expresion);
+                    String tempExpresion = controlador.leerArchivo();
+                    //8System.out.println(tempExpresion);
+                    calculadora.evaluate2Prueba();
+                    //calculadora.evaluate2Prueba(tempExpresion);
+
 
                 }
             /////salir//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
