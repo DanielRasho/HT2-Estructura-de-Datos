@@ -2,10 +2,6 @@ package App_main;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.net.NetPermission;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Controller {
@@ -13,19 +9,23 @@ public class Controller {
     //para escribir el archivo:
     Escribir escribir;
     File archivo;
+    App app;
+    String rootPath;
+    File file;
     
     public Controller(){
         vista= new Vista();
         escribir= new Escribir();
+        app = new App();
+        rootPath = app.getClass().getResource("App.class").getPath()
+                .replaceAll("App.class", "");
+        file = new File(rootPath + "../" + "operaciones.txt");
+        
 
     }
 
     public void leerArchivo() {
-        App app = new App();
-        String rootPath = app.getClass().getResource("App.class").getPath()
-                .replaceAll("App.class", "");
         System.out.println(rootPath);
-        File file = new File(rootPath + "../" + "operaciones.txt");
         try {
             Scanner leer_archivo = new Scanner(file);
 
@@ -43,13 +43,9 @@ public class Controller {
         }
     }
     public void EscribirArchivo(String expresion){
-        App app = new App();
-        String rootPath = app.getClass().getResource("App.class").getPath()
-                .replaceAll("App.class", "");
         archivo= new File(rootPath + "../" + "operaciones.txt");
         String nombre_archivoString= (rootPath + "../" + "operaciones.txt");;//(rootPath + "../" + "operaciones.txt");
         try{
-            //System.out.println("bandera 1");
             if (archivo.exists()){
                 try{
                     //System.out.println("bandera 2");
