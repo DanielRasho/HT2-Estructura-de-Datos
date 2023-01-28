@@ -1,0 +1,10 @@
+App_main/model/ICalculator.class
+App_main/model/StackedArray.class
+App_main/model/Calculadora.class
+App_main/model/Stack.class
+App_main/Vista.class
+App_main/Teclado.class
+App_main/Controller.class
+App_main/MostrarMenu.class
+App_main/Escribir.class
+App_main/App.class
