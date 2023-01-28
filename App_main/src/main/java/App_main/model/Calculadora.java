@@ -3,7 +3,13 @@ package App_main.model;
 public class Calculadora implements ICalculator {
 
     private double lastCalculation = 0;
-    
+
+    /**
+     * Evalua una expresion postfix VALIDA dada.
+     * @param expression La expresion a calcular.
+     * @return Resultado de la expresion Postfix
+     * @throws ArithmeticException
+     */
     @Override
     public double evaluate(String expression) throws ArithmeticException {
         System.out.println("bandera 1, como que no anda jalando esto xd");
@@ -37,6 +43,10 @@ public class Calculadora implements ICalculator {
         return result;
     }
 
+    /**
+     *
+     * @return El resultado de la ultima expresion hecha.
+     */
     @Override
     public double getPrevious() {
         return lastCalculation;

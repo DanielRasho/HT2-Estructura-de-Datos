@@ -6,7 +6,7 @@ public class MostrarMenu {
         Vista vista;
         Controller controlador;
         int opcion=0;
-        Calculadora calculadora;
+        Calculadora calculadora = new Calculadora();
         String expresion;
         
 
@@ -35,9 +35,8 @@ public class MostrarMenu {
     ///////////3. ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 else if (opcion==3){
                     String tempExpresion = controlador.leerArchivo();
-                    System.out.println("expresion: "+tempExpresion);
-                    System.out.println("mira acá xd ");
-                    calculadora.evaluate(tempExpresion);
+                    System.out.println("expresion: "+ tempExpresion);
+                    System.out.println(calculadora.evaluate(tempExpresion));
 
 
                 }
